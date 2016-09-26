@@ -13,7 +13,7 @@
             font-size: 15px;
         }
 
-        small em {
+        em {
             color: gray;
         }
 
@@ -34,28 +34,9 @@
             color: #872E2D;
         }
 
+        .fa-star-half-o,
+        .glyphicon-list-alt,
         .fa-heart {
-            color: #872E2D;
-        }
-
-        .fa-rocket {
-            color: #1657FA;
-
-        }
-        .fa-car {
-            color: #CC0000;
-        }
-
-        .fa-sun-o,
-        .fa-circle {
-            color: #FBB917;
-        }
-
-        .fa-star-half-o {
-            color: #872E2D;
-        }
-
-        .glyphicon-list-alt {
             color: #872E2D;
         }
 
@@ -63,19 +44,19 @@
         .fa-rocket,
         .fa-sun-o,
         .fa-circle {
-            color: gray;
+            color: #cecece;
         }
 
         span.fa {
             margin-right: 4px;
         }
-        span.fa.hidden-sm {
-            margin-right: 0;
-            margin-left:4px;
+        span.fa:hover {
+            color: #872E2D;
         }
 
-        span.fa-stack {
-            width: 1em;
+        span.fa.hidden-sm {
+            margin-right: 0;
+            margin-left: 4px;
         }
 
     </style>
@@ -87,10 +68,11 @@
                 <div class="col-xs-12">
                     <h1>
                         Elon Musk
-                        <small>
+                        <small class="hidden-xs">
                             <small><em>The real life Iron Man</em></small>
                         </small>
                     </h1>
+                    <h5 class=" hidden-sm hidden-md hidden-lg"><em>The real life Iron Man</em></h5>
                 </div>
             </div>
             <div class="row">
@@ -242,16 +224,10 @@
                         </dd>
 
                         <dt>
-                            <span class="fa-stack hidden-xs">
-                                <span class="fa fa-circle fa-stack-1x"></span>
-                                <span class="fa fa-sun-o fa-stack-1x"></span>
-                            </span>
+                            <span class="fa fa-sun-o hidden-xs"></span>
                             <span class="fa fa-rocket hidden-xs"></span>
                             2006
-                            <span class="fa-stack hidden-sm hidden-md hidden-lg">
-                                <span class="fa fa-circle fa-stack-1x"></span>
-                                <span class="fa fa-sun-o fa-stack-1x"></span>
-                            </span>
+                            <span class="fa fa-sun-o hidden-sm hidden-md hidden-lg"></span>
                             <span class="fa fa-rocket hidden-sm hidden-md hidden-lg"></span>
                         </dt>
                         <dd>
@@ -429,11 +405,7 @@
                             </ul>
                         </dd>
 
-                        <dt>
-                            <span class="fa fa-rocket hidden-xs"></span>
-                            in Musk's lifetime
-                            <span class="fa fa-rocket hidden-sm hidden-md hidden-lg"></span>
-                        </dt>
+                        <dt> in Musk's lifetime</dt>
                         <dd>
                             <ul>
                                 <li> Tickets to mars are now $500,000 a piece</li>

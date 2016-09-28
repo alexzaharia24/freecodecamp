@@ -1,10 +1,20 @@
+/*  Icons:
+    fa-briefcase [&#xf0b1;]
+    fa-empire [&#xf1d1;]
+    fa-globe [&#xf0ac;]
+    fa-heartbeat [&#xf21e;]
+    fa-laptop [&#xf109;]
+    fa-shield [&#xf132;]
+    fa-star [&#xf005;]
+*/
 body {
   min-height: 1000px; }
 
 .navbar {
   font-family: 'Montserrat', sans-serif;
   background: #2C3E50;
-  padding: 20px; }
+  padding: 20px;
+  border: none; }
   @media screen and (max-width: 767px) {
     .navbar {
       padding: 0; } }
@@ -36,5 +46,64 @@ body {
   .navbar-default .navbar-nav li a:hover,
   .navbar-default .navbar-nav li a:focus {
     color: #18BC9C; }
+
+.content {
+  padding-top: 90px; }
+  @media screen and (max-width: 767px) {
+    .content {
+      padding-top: 50px; } }
+
+hr.divider {
+  font-family: FontAwesome;
+  border-bottom: 4px solid #FFFFFF;
+  width: 240px;
+  line-height: 1px;
+  font-size: 34px; }
+
+hr.divider:after {
+  padding: 0 8px; }
+
+.welcome {
+  height: 600px;
+  background-color: #18BC9C;
+  padding-top: 60px;
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF; }
+  .welcome .photo {
+    width: 260px;
+    border-radius: 50%;
+    margin: 0 auto; }
+  .welcome h1 {
+    text-transform: uppercase;
+    font-size: 52px; }
+    @media screen and (max-width: 767px) {
+      .welcome h1 {
+        font-size: 38px; } }
+  .welcome .welcome-divider {
+    margin-top: 10px; }
+    .welcome .welcome-divider hr.divider:after {
+      background: #18BC9C;
+      content: "\f0eb"; }
+  .welcome .welcome-titles {
+    font-family: 'Lato', sans-serif; }
+    .welcome .welcome-titles h3 {
+      font-size: 26px; }
+
+.portfolio {
+  height: 600px;
+  padding-top: 70px;
+  background: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  color: #333333; }
+  .portfolio h2 {
+    font-size: 40px; }
+  .portfolio .portfolio-divider hr.divider {
+    border-color: #2C3E50;
+    color: #2C3E50; }
+  .portfolio .portfolio-divider hr.divider:after {
+    background: #FFFFFF;
+    content: "\f0b1"; }
+  .portfolio .projects .project a {
+    background: url("/img/student.png"); }
 
 /*# sourceMappingURL=style.css.map */

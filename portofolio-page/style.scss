@@ -1,0 +1,75 @@
+//Color codes:
+$deep-blue: #2C3E50; // navbar, social zone background
+$aqua-green: #18BC9C; // hover, active, welcome & about zone background
+$white: #FFFFFF; // portofolio & contact zone background
+$dark-blue: #233140; // deep footer
+$dark-gray: #333333; // headings
+
+//Screen sizes
+$screen-sm-min: 768px;
+$screen-xs-max: ($screen-sm-min - 1);
+$screen-md-min: 992px;
+$screen-sm-max: ($screen-md-min - 1);
+$screen-lg-min: 1200px;
+$screen-md-max: ($screen-lg-min - 1);
+
+body {
+    min-height: 1000px;
+}
+
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+    background: $deep-blue;
+    padding: 20px;
+
+    @media screen and (max-width: $screen-xs-max) {
+        padding:0;
+    }
+}
+
+.navbar-default {
+    color: #fff;
+
+    .navbar-brand {
+        text-transform: uppercase;
+        color: $white;
+        font-size: 24px;
+
+        @media screen and (max-width: $screen-xs-max) {
+            font-size: 18px;
+        }
+    }
+    .navbar-brand:hover,
+    .navbar-brand:focus {
+        color: #fff;
+    }
+
+    .navbar-toggle {
+        border-color: $white;
+
+        .icon-bar {
+            background: $white;
+        }
+    }
+    .navbar-toggle:hover,
+    .navbar-toggle:focus{
+        background: $aqua-green;
+        border-color: $aqua-green;
+    }
+
+    .navbar-collapse {
+        border-color: $dark-blue;
+    }
+
+    .navbar-nav {
+        li {
+            a {
+                color: $white;
+            }
+            a:hover,
+            a:focus {
+                color: $aqua-green;
+            }
+        }
+    }
+}

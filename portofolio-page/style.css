@@ -1,0 +1,40 @@
+body {
+  min-height: 1000px; }
+
+.navbar {
+  font-family: 'Montserrat', sans-serif;
+  background: #2C3E50;
+  padding: 20px; }
+  @media screen and (max-width: 767px) {
+    .navbar {
+      padding: 0; } }
+
+.navbar-default {
+  color: #fff; }
+  .navbar-default .navbar-brand {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 24px; }
+    @media screen and (max-width: 767px) {
+      .navbar-default .navbar-brand {
+        font-size: 18px; } }
+  .navbar-default .navbar-brand:hover,
+  .navbar-default .navbar-brand:focus {
+    color: #fff; }
+  .navbar-default .navbar-toggle {
+    border-color: #FFFFFF; }
+    .navbar-default .navbar-toggle .icon-bar {
+      background: #FFFFFF; }
+  .navbar-default .navbar-toggle:hover,
+  .navbar-default .navbar-toggle:focus {
+    background: #18BC9C;
+    border-color: #18BC9C; }
+  .navbar-default .navbar-collapse {
+    border-color: #233140; }
+  .navbar-default .navbar-nav li a {
+    color: #FFFFFF; }
+  .navbar-default .navbar-nav li a:hover,
+  .navbar-default .navbar-nav li a:focus {
+    color: #18BC9C; }
+
+/*# sourceMappingURL=style.css.map */

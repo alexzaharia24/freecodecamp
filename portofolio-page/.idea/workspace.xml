@@ -22,14 +22,14 @@
     <favorites_list name="portofolio-page" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.51428574">
+    <splitter split-orientation="horizontal" split-proportion="0.65791506">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="379">
-                  <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+                <state relative-caret-position="155">
+                  <caret line="85" column="90" selection-start-line="85" selection-start-column="90" selection-end-line="85" selection-end-column="90" />
                   <folding />
                 </state>
               </provider>
@@ -42,8 +42,8 @@
           <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="427">
-                  <caret line="170" column="0" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
+                <state relative-caret-position="421">
+                  <caret line="184" column="1" selection-start-line="184" selection-start-column="1" selection-end-line="184" selection-end-column="1" />
                   <folding>
                     <element signature="e#667#694#0" expanded="false" />
                     <element signature="e#704#894#0" expanded="false" />
@@ -52,8 +52,10 @@
                     <element signature="e#1865#1996#0" expanded="false" />
                     <element signature="e#2014#2037#0" expanded="false" />
                     <element signature="e#2048#2740#0" expanded="false" />
+                    <element signature="e#2753#3571#0" expanded="false" />
                     <element signature="e#2895#2927#0" expanded="false" />
                     <element signature="e#2952#3158#0" expanded="false" />
+                    <element signature="e#3174#3569#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -73,8 +75,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/style.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -216,12 +218,12 @@
       <option name="presentableId" value="Default" />
       <updated>1474981911401</updated>
       <workItem from="1474981912758" duration="6857000" />
-      <workItem from="1475078959975" duration="11922000" />
+      <workItem from="1475078959975" duration="13945000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18779000" />
+    <option name="totallyTimeSpent" value="20802000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -261,18 +263,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="170" column="0" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
+        <state relative-caret-position="421">
+          <caret line="184" column="1" selection-start-line="184" selection-start-column="1" selection-end-line="184" selection-end-column="1" />
           <folding>
             <element signature="e#667#694#0" expanded="false" />
             <element signature="e#704#894#0" expanded="false" />
@@ -281,9 +275,19 @@
             <element signature="e#1865#1996#0" expanded="false" />
             <element signature="e#2014#2037#0" expanded="false" />
             <element signature="e#2048#2740#0" expanded="false" />
+            <element signature="e#2753#3571#0" expanded="false" />
             <element signature="e#2895#2927#0" expanded="false" />
             <element signature="e#2952#3158#0" expanded="false" />
+            <element signature="e#3174#3569#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="85" column="90" selection-start-line="85" selection-start-column="90" selection-end-line="85" selection-end-column="90" />
+          <folding />
         </state>
       </provider>
     </entry>

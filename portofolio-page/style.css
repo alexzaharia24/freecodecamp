@@ -5,7 +5,9 @@
     fa-heartbeat [&#xf21e;]
     fa-laptop [&#xf109;]
     fa-shield [&#xf132;]
+
     fa-star [&#xf005;]
+    fa-lightbulb-o [&#xf0eb;]
 */
 body {
   min-height: 1000px; }
@@ -58,45 +60,52 @@ hr.divider {
   border-bottom: 4px solid #FFFFFF;
   width: 240px;
   line-height: 1px;
-  font-size: 34px; }
+  font-size: 34px;
+  color: #FFFFFF; }
 
 hr.divider:after {
-  padding: 0 8px; }
+  padding: 0 8px;
+  background: #18BC9C; }
 
 .welcome {
-  height: 600px;
   background-color: #18BC9C;
-  padding-top: 60px;
+  padding: 60px 0 60px 0;
   font-family: 'Montserrat', sans-serif;
   color: #FFFFFF; }
-  .welcome .photo {
+  .welcome .photo img {
     width: 260px;
     border-radius: 50%;
     margin: 0 auto; }
-  .welcome h1 {
+  .welcome .welcome-name h1 {
     text-transform: uppercase;
     font-size: 52px; }
     @media screen and (max-width: 767px) {
-      .welcome h1 {
-        font-size: 38px; } }
+      .welcome .welcome-name h1 {
+        font-size: 30px; } }
   .welcome .welcome-divider {
-    margin-top: 10px; }
+    position: relative; }
     .welcome .welcome-divider hr.divider:after {
-      background: #18BC9C;
       content: "\f0eb"; }
   .welcome .welcome-titles {
     font-family: 'Lato', sans-serif; }
     .welcome .welcome-titles h3 {
       font-size: 26px; }
+    @media screen and (max-width: 767px) {
+      .welcome .welcome-titles h3 {
+        margin-top: 10px;
+        font-size: 20px; } }
+  @media screen and (max-width: 767px) {
+    .welcome {
+      padding: 30px 0 30px 0; } }
 
 .portfolio {
-  height: 600px;
-  padding-top: 70px;
+  padding: 70px 0 90px 0;
   background: #FFFFFF;
   font-family: 'Montserrat', sans-serif;
   color: #333333; }
   .portfolio h2 {
-    font-size: 40px; }
+    font-size: 40px;
+    text-transform: uppercase; }
   .portfolio .portfolio-divider hr.divider {
     border-color: #2C3E50;
     color: #2C3E50; }
@@ -115,6 +124,28 @@ hr.divider:after {
         background: url("/img/student.png"); }
     @media screen and (max-width: 767px) {
       .portfolio .projects {
-        margin-top: 30px; } }
+        margin-top: 30px;
+        padding: 0 14px; } }
+  @media screen and (max-width: 767px) {
+    .portfolio {
+      padding: 30px 0 30px 0; } }
+
+.about {
+  padding: 70px 0 90px 0;
+  background: #18BC9C;
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF; }
+  .about .about-divider hr.divider:after {
+    content: "\f007";
+    padding: 0 10px; }
+  .about .about-content {
+    margin-top: 20px; }
+    .about .about-content .description,
+    .about .about-content .skills {
+      font-family: 'Lato', sans-serif;
+      font-size: 20px; }
+  @media screen and (max-width: 767px) {
+    .about {
+      padding: 30px 0 30px 0; } }
 
 /*# sourceMappingURL=style.css.map */

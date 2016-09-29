@@ -148,4 +148,11 @@ hr.divider:after {
     .about {
       padding: 30px 0 30px 0; } }
 
+.contact .contact-divider hr {
+  border-color: #2C3E50;
+  color: #2C3E50; }
+.contact .contact-divider hr:after {
+  content: '\f0e0';
+  background: #FFFFFF; }
+
 /*# sourceMappingURL=style.css.map */

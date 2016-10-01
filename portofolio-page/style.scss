@@ -248,7 +248,19 @@ hr.divider:after {
     }
 
     form {
-        .col-sm-8 {
+        input {
+            border: none;
+            border-top: 1px solid #efefef;
+            height: 60px;
+            font-size: 18px;
+        }
+        textarea {
+            border: none;
+            border-top: 1px solid #efefef;
+            border-bottom: 1px solid #efefef;
+            min-height: 160px;
+            font-size: 18px;
+            resize: vertical;
         }
     }
 }

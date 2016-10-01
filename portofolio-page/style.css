@@ -154,5 +154,17 @@ hr.divider:after {
 .contact .contact-divider hr:after {
   content: '\f0e0';
   background: #FFFFFF; }
+.contact form input {
+  border: none;
+  border-top: 1px solid #efefef;
+  height: 60px;
+  font-size: 18px; }
+.contact form textarea {
+  border: none;
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+  min-height: 160px;
+  font-size: 18px;
+  resize: vertical; }
 
 /*# sourceMappingURL=style.css.map */

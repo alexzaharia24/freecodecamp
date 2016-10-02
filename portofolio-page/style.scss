@@ -236,6 +236,8 @@ hr.divider:after {
 }
 
 .contact {
+    padding: 70px 0 90px 0;
+
     .contact-divider {
         hr {
             border-color: $deep-blue;
@@ -248,19 +250,35 @@ hr.divider:after {
     }
 
     form {
-        input {
+        margin-top: 40px;
+
+        input, textarea {
             border: none;
             border-top: 1px solid #efefef;
-            height: 60px;
+            border-radius: 0;
             font-size: 18px;
+            box-shadow: none;
+            padding: 30px 16px;
+            font-family: 'Lato', sans-serif;
+        }
+        input {
+            height: 60px;
         }
         textarea {
-            border: none;
-            border-top: 1px solid #efefef;
             border-bottom: 1px solid #efefef;
             min-height: 160px;
-            font-size: 18px;
             resize: vertical;
+        }
+        input:focus,
+        textarea:focus {
+            border-color: #efefef;
+            box-shadow: none;
+        }
+        button {
+            margin-top: 20px;
+            background: $aqua-green;
+            color: $white;
+            font-family: 'Lato', sans-serif;
         }
     }
 }

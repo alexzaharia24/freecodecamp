@@ -30,10 +30,10 @@ body {
 }
 
 .navbar {
-    font-family: 'Montserrat', sans-serif;
     background: $deep-blue;
-    padding: 20px;
     border: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
 
     @media screen and (max-width: $screen-xs-max) {
         padding: 0;
@@ -44,9 +44,9 @@ body {
     color: #fff;
 
     .navbar-brand {
-        text-transform: uppercase;
         color: $white;
         font-size: 24px;
+        text-transform: uppercase;
 
         @media screen and (max-width: $screen-xs-max) {
             font-size: 18px;
@@ -95,38 +95,38 @@ body {
 }
 
 hr.divider {
-    font-family: FontAwesome;
     border-bottom: 4px solid $white;
-    width: 240px;
-    line-height: 1px;
-    font-size: 34px;
     color: $white;
+    font-family: FontAwesome;
+    font-size: 34px;
+    line-height: 1px;
+    width: 240px;
 }
 
 hr.divider:after {
-    padding: 0 8px;
     background: $aqua-green;
+    padding: 0 8px;
 }
 
 .welcome {
     background-color: $aqua-green;
-    padding: 160px 0 60px 0;
-    font-family: 'Montserrat', sans-serif;
     color: $white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 160px 0 60px 0;
 
     .photo {
         img {
-            width: 260px;
             border-radius: 50%;
             margin: 0 auto;
+            width: 260px;
         }
     }
 
     .welcome-name {
 
         h1 {
-            text-transform: uppercase;
             font-size: 52px;
+            text-transform: uppercase;
 
             @media screen and (max-width: $screen-xs-max) {
                 font-size: 30px;
@@ -162,10 +162,10 @@ hr.divider:after {
 }
 
 .portfolio {
-    padding: 70px 0 90px 0;
     background: $white;
-    font-family: 'Montserrat', sans-serif;
     color: $dark-gray;
+    font-family: 'Montserrat', sans-serif;
+    padding: 70px 0 90px 0;
 
     h2 {
         font-size: 40px;
@@ -189,10 +189,10 @@ hr.divider:after {
         .project {
             margin-top: 20px;
             a {
-                max-width: 400px;
-                margin: 0 auto;
-                display: block;
                 background: url('/img/student.png');
+                display: block;
+                margin: 0 auto;
+                max-width: 400px;
             }
         }
 
@@ -208,10 +208,10 @@ hr.divider:after {
 }
 
 .about {
-    padding: 70px 0 90px 0;
     background: $aqua-green;
-    font-family: 'Montserrat', sans-serif;
     color: $white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 70px 0 90px 0;
 
     .about-divider {
 
@@ -244,8 +244,8 @@ hr.divider:after {
             color: $deep-blue;
         }
         hr:after {
-            content: '\f0e0';
             background: $white;
+            content: '\f0e0';
         }
     }
 
@@ -254,12 +254,12 @@ hr.divider:after {
 
         input, textarea {
             border: none;
-            border-top: 1px solid #efefef;
             border-radius: 0;
-            font-size: 18px;
+            border-top: 1px solid #efefef;
             box-shadow: none;
-            padding: 30px 16px;
             font-family: 'Lato', sans-serif;
+            font-size: 18px;
+            padding: 30px 16px;
         }
         input {
             height: 60px;
@@ -275,10 +275,77 @@ hr.divider:after {
             box-shadow: none;
         }
         button {
-            margin-top: 20px;
             background: $aqua-green;
             color: $white;
             font-family: 'Lato', sans-serif;
+            margin-top: 20px;
+        }
+    }
+}
+
+.social {
+    background: $deep-blue;
+    color: $white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px 0 34px 0;
+
+    .social-icons {
+        margin-top: 20px;
+
+        a {
+            border: 2px solid $white;
+            border-radius: 50%;
+            color: $white;
+            display: inline-block;
+            height: 46px;
+            line-height: 46px;
+            margin-right: 8px;
+            text-align: center;
+            transition: 0.2s all ease-out;
+            width: 46px;
+
+            span.fa {
+                font-size: 20px;
+            }
+        }
+        a:hover {
+            background: $white;
+            color: $aqua-green;
+            transition: 0.2s all ease-in;
+        }
+    }
+
+}
+
+.credits {
+    padding: 6px 0;
+    background: $dark-blue;
+    color: $white;
+
+    .credits {
+        h5 {
+            margin: 5px 0;
+        }
+        font-family: 'Lato', sans-serif;
+        .fa-heart {
+            color: $aqua-green;
+        }
+        a {
+            color: $aqua-green;
+            transition: 0.1s all ease-out;
+            border-bottom: 1px solid $dark-blue;
+        }
+        a:hover {
+            transition: 0.1s all ease-in;
+            text-decoration: none;
+            border-bottom: 1px solid $aqua-green;
+        }
+        a:focus {
+            text-underline: none;
+        }
+
+        @media screen and (max-width: $screen-sm-max) {
+            text-align: center;
         }
     }
 }

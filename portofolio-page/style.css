@@ -13,10 +13,10 @@ body {
   min-height: 1000px; }
 
 .navbar {
-  font-family: 'Montserrat', sans-serif;
   background: #2C3E50;
-  padding: 20px;
-  border: none; }
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px; }
   @media screen and (max-width: 767px) {
     .navbar {
       padding: 0; } }
@@ -24,9 +24,9 @@ body {
 .navbar-default {
   color: #fff; }
   .navbar-default .navbar-brand {
-    text-transform: uppercase;
     color: #FFFFFF;
-    font-size: 24px; }
+    font-size: 24px;
+    text-transform: uppercase; }
     @media screen and (max-width: 767px) {
       .navbar-default .navbar-brand {
         font-size: 18px; } }
@@ -56,29 +56,29 @@ body {
       padding-top: 50px; } }
 
 hr.divider {
-  font-family: FontAwesome;
   border-bottom: 4px solid #FFFFFF;
-  width: 240px;
-  line-height: 1px;
+  color: #FFFFFF;
+  font-family: FontAwesome;
   font-size: 34px;
-  color: #FFFFFF; }
+  line-height: 1px;
+  width: 240px; }
 
 hr.divider:after {
-  padding: 0 8px;
-  background: #18BC9C; }
+  background: #18BC9C;
+  padding: 0 8px; }
 
 .welcome {
   background-color: #18BC9C;
-  padding: 160px 0 60px 0;
+  color: #FFFFFF;
   font-family: 'Montserrat', sans-serif;
-  color: #FFFFFF; }
+  padding: 160px 0 60px 0; }
   .welcome .photo img {
-    width: 260px;
     border-radius: 50%;
-    margin: 0 auto; }
+    margin: 0 auto;
+    width: 260px; }
   .welcome .welcome-name h1 {
-    text-transform: uppercase;
-    font-size: 52px; }
+    font-size: 52px;
+    text-transform: uppercase; }
     @media screen and (max-width: 767px) {
       .welcome .welcome-name h1 {
         font-size: 30px; } }
@@ -99,10 +99,10 @@ hr.divider:after {
       padding: 90px 0 30px 0; } }
 
 .portfolio {
-  padding: 70px 0 90px 0;
   background: #FFFFFF;
+  color: #333333;
   font-family: 'Montserrat', sans-serif;
-  color: #333333; }
+  padding: 70px 0 90px 0; }
   .portfolio h2 {
     font-size: 40px;
     text-transform: uppercase; }
@@ -118,10 +118,10 @@ hr.divider:after {
     .portfolio .projects .project {
       margin-top: 20px; }
       .portfolio .projects .project a {
-        max-width: 400px;
-        margin: 0 auto;
+        background: url("/img/student.png");
         display: block;
-        background: url("/img/student.png"); }
+        margin: 0 auto;
+        max-width: 400px; }
     @media screen and (max-width: 767px) {
       .portfolio .projects {
         margin-top: 30px;
@@ -131,10 +131,10 @@ hr.divider:after {
       padding: 30px 0 30px 0; } }
 
 .about {
-  padding: 70px 0 90px 0;
   background: #18BC9C;
+  color: #FFFFFF;
   font-family: 'Montserrat', sans-serif;
-  color: #FFFFFF; }
+  padding: 70px 0 90px 0; }
   .about .about-divider hr.divider:after {
     content: "\f007";
     padding: 0 10px; }
@@ -154,18 +154,18 @@ hr.divider:after {
     border-color: #2C3E50;
     color: #2C3E50; }
   .contact .contact-divider hr:after {
-    content: '\f0e0';
-    background: #FFFFFF; }
+    background: #FFFFFF;
+    content: '\f0e0'; }
   .contact form {
     margin-top: 40px; }
     .contact form input, .contact form textarea {
       border: none;
-      border-top: 1px solid #efefef;
       border-radius: 0;
-      font-size: 18px;
+      border-top: 1px solid #efefef;
       box-shadow: none;
-      padding: 30px 16px;
-      font-family: 'Lato', sans-serif; }
+      font-family: 'Lato', sans-serif;
+      font-size: 18px;
+      padding: 30px 16px; }
     .contact form input {
       height: 60px; }
     .contact form textarea {
@@ -177,9 +177,58 @@ hr.divider:after {
       border-color: #efefef;
       box-shadow: none; }
     .contact form button {
-      margin-top: 20px;
       background: #18BC9C;
       color: #FFFFFF;
-      font-family: 'Lato', sans-serif; }
+      font-family: 'Lato', sans-serif;
+      margin-top: 20px; }
+
+.social {
+  background: #2C3E50;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px 0 34px 0; }
+  .social .social-icons {
+    margin-top: 20px; }
+    .social .social-icons a {
+      border: 2px solid #FFFFFF;
+      border-radius: 50%;
+      color: #FFFFFF;
+      display: inline-block;
+      height: 46px;
+      line-height: 46px;
+      margin-right: 8px;
+      text-align: center;
+      transition: 0.2s all ease-out;
+      width: 46px; }
+      .social .social-icons a span.fa {
+        font-size: 20px; }
+    .social .social-icons a:hover {
+      background: #FFFFFF;
+      color: #18BC9C;
+      transition: 0.2s all ease-in; }
+
+.credits {
+  padding: 6px 0;
+  background: #233140;
+  color: #FFFFFF; }
+  .credits .credits {
+    font-family: 'Lato', sans-serif; }
+    .credits .credits h5 {
+      margin: 5px 0; }
+    .credits .credits .fa-heart {
+      color: #18BC9C; }
+    .credits .credits a {
+      color: #18BC9C;
+      transition: 0.1s all ease-out;
+      border-bottom: 1px solid #233140; }
+    .credits .credits a:hover {
+      transition: 0.1s all ease-in;
+      text-decoration: none;
+      border-bottom: 1px solid #18BC9C; }
+    .credits .credits a:focus {
+      text-underline: none; }
+    @media screen and (max-width: 991px) {
+      .credits .credits {
+        text-align: center; } }
 
 /*# sourceMappingURL=style.css.map */

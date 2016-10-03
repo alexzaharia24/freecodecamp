@@ -27,6 +27,10 @@ $screen-md-max: ($screen-lg-min - 1);
 
 body {
     min-height: 1000px;
+
+    button:focus {
+        outline: none;
+    }
 }
 
 .navbar {
@@ -108,7 +112,7 @@ hr.divider:after {
     padding: 0 8px;
 }
 
-.welcome {
+#welcome {
     background-color: $aqua-green;
     color: $white;
     font-family: 'Montserrat', sans-serif;
@@ -161,7 +165,7 @@ hr.divider:after {
     }
 }
 
-.portfolio {
+#portfolio {
     background: $white;
     color: $dark-gray;
     font-family: 'Montserrat', sans-serif;
@@ -207,7 +211,7 @@ hr.divider:after {
     }
 }
 
-.about {
+#about {
     background: $aqua-green;
     color: $white;
     font-family: 'Montserrat', sans-serif;
@@ -235,7 +239,7 @@ hr.divider:after {
     }
 }
 
-.contact {
+#contact {
     padding: 70px 0 90px 0;
 
     .contact-divider {
@@ -283,7 +287,7 @@ hr.divider:after {
     }
 }
 
-.social {
+#social {
     background: $deep-blue;
     color: $white;
     font-family: 'Montserrat', sans-serif;
@@ -317,7 +321,7 @@ hr.divider:after {
 
 }
 
-.credits {
+#credits {
     padding: 6px 0 10px 0;
     background: $dark-blue;
     color: $white;

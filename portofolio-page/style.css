@@ -11,6 +11,8 @@
 */
 body {
   min-height: 1000px; }
+  body button:focus {
+    outline: none; }
 
 .navbar {
   background: #2C3E50;
@@ -67,98 +69,98 @@ hr.divider:after {
   background: #18BC9C;
   padding: 0 8px; }
 
-.welcome {
+#welcome {
   background-color: #18BC9C;
   color: #FFFFFF;
   font-family: 'Montserrat', sans-serif;
   padding: 160px 0 60px 0; }
-  .welcome .photo img {
+  #welcome .photo img {
     border-radius: 50%;
     margin: 0 auto;
     width: 260px; }
-  .welcome .welcome-name h1 {
+  #welcome .welcome-name h1 {
     font-size: 52px;
     text-transform: uppercase; }
     @media screen and (max-width: 767px) {
-      .welcome .welcome-name h1 {
+      #welcome .welcome-name h1 {
         font-size: 30px; } }
-  .welcome .welcome-divider {
+  #welcome .welcome-divider {
     position: relative; }
-    .welcome .welcome-divider hr.divider:after {
+    #welcome .welcome-divider hr.divider:after {
       content: "\f0eb"; }
-  .welcome .welcome-titles {
+  #welcome .welcome-titles {
     font-family: 'Lato', sans-serif; }
-    .welcome .welcome-titles h3 {
+    #welcome .welcome-titles h3 {
       font-size: 26px; }
     @media screen and (max-width: 767px) {
-      .welcome .welcome-titles h3 {
+      #welcome .welcome-titles h3 {
         margin-top: 10px;
         font-size: 20px; } }
   @media screen and (max-width: 767px) {
-    .welcome {
+    #welcome {
       padding: 90px 0 30px 0; } }
 
-.portfolio {
+#portfolio {
   background: #FFFFFF;
   color: #333333;
   font-family: 'Montserrat', sans-serif;
   padding: 70px 0 90px 0; }
-  .portfolio h2 {
+  #portfolio h2 {
     font-size: 40px;
     text-transform: uppercase; }
-  .portfolio .portfolio-divider hr.divider {
+  #portfolio .portfolio-divider hr.divider {
     border-color: #2C3E50;
     color: #2C3E50; }
-  .portfolio .portfolio-divider hr.divider:after {
+  #portfolio .portfolio-divider hr.divider:after {
     background: #FFFFFF;
     content: "\f0b1"; }
-  .portfolio .projects {
+  #portfolio .projects {
     margin-top: 14px;
     padding: 0 36px; }
-    .portfolio .projects .project {
+    #portfolio .projects .project {
       margin-top: 20px; }
-      .portfolio .projects .project a {
+      #portfolio .projects .project a {
         background: url("/img/student.png");
         display: block;
         margin: 0 auto;
         max-width: 400px; }
     @media screen and (max-width: 767px) {
-      .portfolio .projects {
+      #portfolio .projects {
         margin-top: 30px;
         padding: 0 14px; } }
   @media screen and (max-width: 767px) {
-    .portfolio {
+    #portfolio {
       padding: 30px 0 30px 0; } }
 
-.about {
+#about {
   background: #18BC9C;
   color: #FFFFFF;
   font-family: 'Montserrat', sans-serif;
   padding: 70px 0 90px 0; }
-  .about .about-divider hr.divider:after {
+  #about .about-divider hr.divider:after {
     content: "\f007";
     padding: 0 10px; }
-  .about .about-content {
+  #about .about-content {
     margin-top: 20px; }
-    .about .about-content .description,
-    .about .about-content .skills {
+    #about .about-content .description,
+    #about .about-content .skills {
       font-family: 'Lato', sans-serif;
       font-size: 20px; }
   @media screen and (max-width: 767px) {
-    .about {
+    #about {
       padding: 30px 0 30px 0; } }
 
-.contact {
+#contact {
   padding: 70px 0 90px 0; }
-  .contact .contact-divider hr {
+  #contact .contact-divider hr {
     border-color: #2C3E50;
     color: #2C3E50; }
-  .contact .contact-divider hr:after {
+  #contact .contact-divider hr:after {
     background: #FFFFFF;
     content: '\f0e0'; }
-  .contact form {
+  #contact form {
     margin-top: 40px; }
-    .contact form input, .contact form textarea {
+    #contact form input, #contact form textarea {
       border: none;
       border-radius: 0;
       border-top: 1px solid #efefef;
@@ -166,30 +168,30 @@ hr.divider:after {
       font-family: 'Lato', sans-serif;
       font-size: 18px;
       padding: 30px 16px; }
-    .contact form input {
+    #contact form input {
       height: 60px; }
-    .contact form textarea {
+    #contact form textarea {
       border-bottom: 1px solid #efefef;
       min-height: 160px;
       resize: vertical; }
-    .contact form input:focus,
-    .contact form textarea:focus {
+    #contact form input:focus,
+    #contact form textarea:focus {
       border-color: #efefef;
       box-shadow: none; }
-    .contact form button {
+    #contact form button {
       background: #18BC9C;
       color: #FFFFFF;
       font-family: 'Lato', sans-serif;
       margin-top: 20px; }
 
-.social {
+#social {
   background: #2C3E50;
   color: #FFFFFF;
   font-family: 'Montserrat', sans-serif;
   padding: 20px 0 34px 0; }
-  .social .social-icons {
+  #social .social-icons {
     margin-top: 20px; }
-    .social .social-icons a {
+    #social .social-icons a {
       border: 2px solid #FFFFFF;
       border-radius: 50%;
       color: #FFFFFF;
@@ -200,35 +202,35 @@ hr.divider:after {
       text-align: center;
       transition: 0.2s all ease-out;
       width: 46px; }
-      .social .social-icons a span.fa {
+      #social .social-icons a span.fa {
         font-size: 20px; }
-    .social .social-icons a:hover {
+    #social .social-icons a:hover {
       background: #FFFFFF;
       color: #18BC9C;
       transition: 0.2s all ease-in; }
 
-.credits {
+#credits {
   padding: 6px 0 10px 0;
   background: #233140;
   color: #FFFFFF; }
-  .credits .credits {
+  #credits .credits {
     font-family: 'Lato', sans-serif; }
-    .credits .credits h5 {
+    #credits .credits h5 {
       margin: 5px 0; }
-    .credits .credits .fa-heart {
+    #credits .credits .fa-heart {
       color: #18BC9C; }
-    .credits .credits a {
+    #credits .credits a {
       color: #18BC9C;
       transition: 0.1s all ease-out;
       border-bottom: 1px solid #233140; }
-    .credits .credits a:hover {
+    #credits .credits a:hover {
       transition: 0.1s all ease-in;
       text-decoration: none;
       border-bottom: 1px solid #18BC9C; }
-    .credits .credits a:focus {
+    #credits .credits a:focus {
       text-underline: none; }
     @media screen and (max-width: 991px) {
-      .credits .credits {
+      #credits .credits {
         text-align: center; } }
 
 /*# sourceMappingURL=style.css.map */

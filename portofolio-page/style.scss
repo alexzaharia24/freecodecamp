@@ -1,7 +1,7 @@
 //Color codes:
-$deep-blue: #2C3E50; // navbar, social zone background
-$aqua-green: #18BC9C; // hover, active, welcome & about zone background
-$white: #FFFFFF; // portofolio & contact zone background
+$deep-blue: #395795; // navbar, social zone background
+$aqua-green: #77BA9B; // hover, active, welcome & about zone background
+$white: #fff; // portofolio & contact zone background
 $dark-blue: #233140; // deep footer
 $dark-gray: #333333; // headings
 
@@ -45,7 +45,7 @@ body {
 }
 
 .navbar-default {
-    color: #fff;
+    color: $white;
 
     .navbar-brand {
         color: $white;
@@ -58,7 +58,7 @@ body {
     }
     .navbar-brand:hover,
     .navbar-brand:focus {
-        color: #fff;
+        color: $white;
     }
 
     .navbar-toggle {
@@ -82,6 +82,7 @@ body {
         li {
             a {
                 color: $white;
+                cursor: pointer;
             }
             a:hover,
             a:focus {
@@ -322,27 +323,28 @@ hr.divider:after {
 }
 
 #credits {
-    padding: 6px 0 10px 0;
     background: $dark-blue;
     color: $white;
+    padding: 6px 0 10px 0;
 
     .credits {
-        h5 {
+        h5
+        {
+            font-family: 'Lato', sans-serif;
             margin: 5px 0;
-        }
-        font-family: 'Lato', sans-serif;
+        };
         .fa-heart {
             color: $aqua-green;
         }
         a {
+            border-bottom: 1px solid $dark-blue;
             color: $aqua-green;
             transition: 0.1s all ease-out;
-            border-bottom: 1px solid $dark-blue;
         }
         a:hover {
-            transition: 0.1s all ease-in;
-            text-decoration: none;
             border-bottom: 1px solid $aqua-green;
+            text-decoration: none;
+            transition: 0.1s all ease-in;
         }
         a:focus {
             text-underline: none;

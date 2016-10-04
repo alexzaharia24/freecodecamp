@@ -15,7 +15,7 @@ body {
     outline: none; }
 
 .navbar {
-  background: #395795;
+  background: #424242;
   border: none;
   font-family: 'Montserrat', sans-serif;
   padding: 20px; }
@@ -41,16 +41,16 @@ body {
       background: #fff; }
   .navbar-default .navbar-toggle:hover,
   .navbar-default .navbar-toggle:focus {
-    background: #77BA9B;
-    border-color: #77BA9B; }
+    background: #4298B5;
+    border-color: #4298B5; }
   .navbar-default .navbar-collapse {
-    border-color: #233140; }
+    border-color: #333333; }
   .navbar-default .navbar-nav li a {
     color: #fff;
     cursor: pointer; }
   .navbar-default .navbar-nav li a:hover,
   .navbar-default .navbar-nav li a:focus {
-    color: #77BA9B; }
+    color: #4298B5; }
 
 .content {
   padding-top: 90px; }
@@ -67,11 +67,11 @@ hr.divider {
   width: 240px; }
 
 hr.divider:after {
-  background: #77BA9B;
+  background: #4298B5;
   padding: 0 8px; }
 
 #welcome {
-  background-color: #77BA9B;
+  background-color: #4298B5;
   color: #fff;
   font-family: 'Montserrat', sans-serif;
   padding: 160px 0 60px 0; }
@@ -110,8 +110,8 @@ hr.divider:after {
     font-size: 40px;
     text-transform: uppercase; }
   #portfolio .portfolio-divider hr.divider {
-    border-color: #395795;
-    color: #395795; }
+    border-color: #424242;
+    color: #424242; }
   #portfolio .portfolio-divider hr.divider:after {
     background: #fff;
     content: "\f0b1"; }
@@ -134,7 +134,7 @@ hr.divider:after {
       padding: 30px 0 30px 0; } }
 
 #about {
-  background: #77BA9B;
+  background: #4298B5;
   color: #fff;
   font-family: 'Montserrat', sans-serif;
   padding: 70px 0 90px 0; }
@@ -154,8 +154,8 @@ hr.divider:after {
 #contact {
   padding: 70px 0 90px 0; }
   #contact .contact-divider hr {
-    border-color: #395795;
-    color: #395795; }
+    border-color: #424242;
+    color: #424242; }
   #contact .contact-divider hr:after {
     background: #fff;
     content: '\f0e0'; }
@@ -180,13 +180,13 @@ hr.divider:after {
       border-color: #efefef;
       box-shadow: none; }
     #contact form button {
-      background: #77BA9B;
+      background: #4298B5;
       color: #fff;
       font-family: 'Lato', sans-serif;
       margin-top: 20px; }
 
 #social {
-  background: #395795;
+  background: #424242;
   color: #fff;
   font-family: 'Montserrat', sans-serif;
   padding: 20px 0 34px 0; }
@@ -207,24 +207,24 @@ hr.divider:after {
         font-size: 20px; }
     #social .social-icons a:hover {
       background: #fff;
-      color: #77BA9B;
+      color: #4298B5;
       transition: 0.2s all ease-in; }
 
 #credits {
-  background: #233140;
+  background: #333333;
   color: #fff;
   padding: 6px 0 10px 0; }
   #credits .credits h5 {
     font-family: 'Lato', sans-serif;
     margin: 5px 0; }
   #credits .credits .fa-heart {
-    color: #77BA9B; }
+    color: #4298B5; }
   #credits .credits a {
-    border-bottom: 1px solid #233140;
-    color: #77BA9B;
+    border-bottom: 1px solid #333333;
+    color: #4298B5;
     transition: 0.1s all ease-out; }
   #credits .credits a:hover {
-    border-bottom: 1px solid #77BA9B;
+    border-bottom: 1px solid #4298B5;
     text-decoration: none;
     transition: 0.1s all ease-in; }
   #credits .credits a:focus {

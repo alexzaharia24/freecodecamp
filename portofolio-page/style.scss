@@ -1,9 +1,8 @@
 //Color codes:
-$deep-blue: #395795; // navbar, social zone background
-$aqua-green: #77BA9B; // hover, active, welcome & about zone background
+$deep-gray: #424242; // navbar, social zone background
+$light-blue: #4298B5; // hover, active, welcome & about zone background
 $white: #fff; // portofolio & contact zone background
-$dark-blue: #233140; // deep footer
-$dark-gray: #333333; // headings
+$dark-gray: #333333; // headings, deep footer
 
 //Screen sizes
 $screen-sm-min: 768px;
@@ -34,7 +33,7 @@ body {
 }
 
 .navbar {
-    background: $deep-blue;
+    background: $deep-gray;
     border: none;
     font-family: 'Montserrat', sans-serif;
     padding: 20px;
@@ -70,12 +69,12 @@ body {
     }
     .navbar-toggle:hover,
     .navbar-toggle:focus {
-        background: $aqua-green;
-        border-color: $aqua-green;
+        background: $light-blue;
+        border-color: $light-blue;
     }
 
     .navbar-collapse {
-        border-color: $dark-blue;
+        border-color: $dark-gray;
     }
 
     .navbar-nav {
@@ -86,7 +85,7 @@ body {
             }
             a:hover,
             a:focus {
-                color: $aqua-green;
+                color: $light-blue;
             }
         }
     }
@@ -109,12 +108,12 @@ hr.divider {
 }
 
 hr.divider:after {
-    background: $aqua-green;
+    background: $light-blue;
     padding: 0 8px;
 }
 
 #welcome {
-    background-color: $aqua-green;
+    background-color: $light-blue;
     color: $white;
     font-family: 'Montserrat', sans-serif;
     padding: 160px 0 60px 0;
@@ -179,8 +178,8 @@ hr.divider:after {
 
     .portfolio-divider {
         hr.divider {
-            border-color: $deep-blue;
-            color: $deep-blue;
+            border-color: $deep-gray;
+            color: $deep-gray;
         }
         hr.divider:after {
             background: $white;
@@ -213,7 +212,7 @@ hr.divider:after {
 }
 
 #about {
-    background: $aqua-green;
+    background: $light-blue;
     color: $white;
     font-family: 'Montserrat', sans-serif;
     padding: 70px 0 90px 0;
@@ -245,8 +244,8 @@ hr.divider:after {
 
     .contact-divider {
         hr {
-            border-color: $deep-blue;
-            color: $deep-blue;
+            border-color: $deep-gray;
+            color: $deep-gray;
         }
         hr:after {
             background: $white;
@@ -280,7 +279,7 @@ hr.divider:after {
             box-shadow: none;
         }
         button {
-            background: $aqua-green;
+            background: $light-blue;
             color: $white;
             font-family: 'Lato', sans-serif;
             margin-top: 20px;
@@ -289,7 +288,7 @@ hr.divider:after {
 }
 
 #social {
-    background: $deep-blue;
+    background: $deep-gray;
     color: $white;
     font-family: 'Montserrat', sans-serif;
     padding: 20px 0 34px 0;
@@ -315,7 +314,7 @@ hr.divider:after {
         }
         a:hover {
             background: $white;
-            color: $aqua-green;
+            color: $light-blue;
             transition: 0.2s all ease-in;
         }
     }
@@ -323,7 +322,7 @@ hr.divider:after {
 }
 
 #credits {
-    background: $dark-blue;
+    background: $dark-gray;
     color: $white;
     padding: 6px 0 10px 0;
 
@@ -334,15 +333,15 @@ hr.divider:after {
             margin: 5px 0;
         };
         .fa-heart {
-            color: $aqua-green;
+            color: $light-blue;
         }
         a {
-            border-bottom: 1px solid $dark-blue;
-            color: $aqua-green;
+            border-bottom: 1px solid $dark-gray;
+            color: $light-blue;
             transition: 0.1s all ease-out;
         }
         a:hover {
-            border-bottom: 1px solid $aqua-green;
+            border-bottom: 1px solid $light-blue;
             text-decoration: none;
             transition: 0.1s all ease-in;
         }

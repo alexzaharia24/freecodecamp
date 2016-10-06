@@ -1,8 +1,8 @@
 //Color codes:
 $deep-gray: #424242; // navbar, social zone background
+$dark-gray: #333333; // headings, deep footer
 $light-blue: #4298B5; // hover, active, welcome & about zone background
 $white: #fff; // portofolio & contact zone background
-$dark-gray: #333333; // headings, deep footer
 
 //Screen sizes
 $screen-sm-min: 768px;
@@ -318,7 +318,6 @@ hr.divider:after {
             transition: 0.2s all ease-in;
         }
     }
-
 }
 
 #credits {
